@@ -1,0 +1,4 @@
+$ pwd						-print working directory
+$ ls						-list
+$ ls -a						-list all
+$ rails generate controller pages home		-create new page
