@@ -2,3 +2,10 @@ $ pwd						-print working directory
 $ ls						-list
 $ ls -a						-list all
 $ rails generate controller pages home		-create new page
+
+routes under config>routes.rb
+
+create new page
+	add the page to the pages_controller
+	add the view under Views>Pages
+	add a route to the page
