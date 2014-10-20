@@ -1,6 +1,18 @@
-$body-bg:  #bdc3c7;
-$navbar-inverse-bg:  #2980b9;
-$navbar-inverse-link-color:  #ecf0f1;
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 
+$font-family-sans-serif: 	'Indie Flower',"Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-bg:  					#ffffff;
+$jumbotron-bg: 				#CCCCFF;
+$navbar-height: 			45px;
+$navbar-inverse-bg:  		#2980b9;
+$navbar-inverse-link-color:	#ecf0f1;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
